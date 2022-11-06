@@ -13,6 +13,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_AUTOSUGGEST_STRATEGY=(history)
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -91,6 +92,7 @@ alias ls="ls --color=auto"
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias nv="nvim"
 alias vvc="docker pull voicevox/voicevox_engine:cpu-ubuntu20.04-latest && docker run --rm -it -p 50021:50021 voicevox/voicevox_engine:cpu-ubuntu20.04-latest"
 alias vvg="docker pull voicevox/voicevox_engine:nvidia-ubuntu20.04-latest && docker run --rm --gpus all -p 50021:50021 voicevox/voicevox_engine:nvidia-ubuntu20.04-latest"
 
@@ -100,3 +102,4 @@ alias vvg="docker pull voicevox/voicevox_engine:nvidia-ubuntu20.04-latest && doc
 source ~/dotfiles/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/dotfiles/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/dotfiles/.zsh/powerlevel10k/powerlevel10k.zsh-theme
+
