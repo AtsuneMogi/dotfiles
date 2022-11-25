@@ -88,11 +88,14 @@ ZSH_AUTOSUGGEST_STRATEGY=(history)
 # export ARCHFLAGS="-arch x86_64"
 
 alias dotfiles="cd && rm -fr dotfiles && git clone https://github.com/AtsuneMogi/dotfiles && cd dotfiles && ./setup.sh"
+alias gdo="google-drive-ocamlfuse ~/0"
 alias ls="ls --color=auto"
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias nv="nvim"
+alias vi="nvim"
+alias vim="nvim"
 alias vvc="docker pull voicevox/voicevox_engine:cpu-ubuntu20.04-latest && docker run --rm -it -p 50021:50021 voicevox/voicevox_engine:cpu-ubuntu20.04-latest"
 alias vvg="docker pull voicevox/voicevox_engine:nvidia-ubuntu20.04-latest && docker run --rm --gpus all -p 50021:50021 voicevox/voicevox_engine:nvidia-ubuntu20.04-latest"
 
@@ -103,3 +106,8 @@ source ~/dotfiles/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/dotfiles/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/dotfiles/.zsh/powerlevel10k/powerlevel10k.zsh-theme
 
+export HISTFILE=${HOME}/.zsh_history
+export HISTSIZE=1000
+export SAVEHIST=100000
+setopt hist_ignore_dups
+setopt EXTENDED_HISTORY
