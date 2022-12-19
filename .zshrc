@@ -1,5 +1,3 @@
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -111,11 +109,6 @@ function vcs_echo {
     fi
     echo "%{$color%}(%{$branch%})%{$reset_color%}" | sed -e s/@/"%F{yellow}@%f%{$color%}"/
 }
-PROMPT='%B%F{green}%n@%m${vcs_info_msg_0_}%F{white}:%F{blue}%~%f `vcs_echo`
-%(?.➜.%F{red}➜%f) '
-
-#PROMPT='%F{yellow}[%~]%f `vcs_echo`
-#%(?.➜.%F{red}➜%f) '
-
-#PROMPT='%(!.%{%F{yellow}%}.)$USER @ %{$fg[white]%}%M %{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
+PROMPT='%F{green}%n@%m${vcs_info_msg_0_}%F{white}:%F{blue}%~%f `vcs_echo`
+%(?.%F{blue}➜.%F{red}➜%f) '
 
