@@ -109,6 +109,6 @@ function vcs_echo {
     fi
     echo "%{$color%}(%{$branch%})%{$reset_color%}" | sed -e s/@/"%F{yellow}@%f%{$color%}"/
 }
-PROMPT='%F{green}%n@%m${vcs_info_msg_0_}%F{white}:%F{blue}%~%f `vcs_echo`
+PROMPT='%F{green}%n%F{yellow}@%F{green}%m${vcs_info_msg_0_}%F{white}: %F{blue}%~%f `vcs_echo`
 %(?.%F{blue}➜.%F{red}➜%f) '
 
