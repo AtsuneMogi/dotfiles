@@ -107,7 +107,7 @@ function vcs_echo {
     elif [[ -n `echo "$st" | grep "^Untracked"` ]]; then color=${fg[blue]} # untracked
     else color=${fg[cyan]}
     fi
-    echo "%{$color%}(%{$branch%})%{$reset_color%}" | sed -e s/@/"%F{yellow}@%f%{$color%}"/
+    echo "%{$color%}[%{$branch%}]%{$reset_color%}" | sed -e s/@/"%F{yellow}@%f%{$color%}"/
 }
 PROMPT='%F{green}%n%F{yellow}@%F{green}%m${vcs_info_msg_0_}%F{white}: %F{blue}%~%f `vcs_echo`
 %(?.%F{green}➜.%F{red}➜%f) '
