@@ -74,9 +74,7 @@ alias ls="ls --color=auto"
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias nv="nvim"
-alias vi="nvim"
-alias vim="nvim"
+alias v="nvim"
 alias vvc="docker pull voicevox/voicevox_engine:cpu-ubuntu20.04-latest && docker run --rm -it -p 50021:50021 voicevox/voicevox_engine:cpu-ubuntu20.04-latest"
 alias vvg="docker pull voicevox/voicevox_engine:nvidia-ubuntu20.04-latest && docker run --rm --gpus all -p 50021:50021 voicevox/voicevox_engine:nvidia-ubuntu20.04-latest"
 
