@@ -6,6 +6,7 @@ alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
 alias python="python3"
+alias py="python3"
 alias pip="pip3"
 alias v="nvim"
 # zsh history
