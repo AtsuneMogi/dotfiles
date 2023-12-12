@@ -1,8 +1,10 @@
 # language
 export LANG=en_US.UTF-8
+# ls colors
+export LSCOLORS=gxfxcxdxbxegedabagacad
 # aliases
-alias ls="ls --color=auto"
-alias l='ls -CF'
+alias ls="ls -GF"
+alias l='ls -C'
 alias la='ls -A'
 alias ll='ls -alF'
 alias python="python3"
