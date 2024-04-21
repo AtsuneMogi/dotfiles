@@ -3,6 +3,7 @@ export LANG=en_US.UTF-8
 # ls colors
 export LSCOLORS=gxfxcxdxbxegedabagacad
 # aliases
+alias gpp="g++"
 alias ls="ls -GF"
 alias l='ls -C'
 alias la='ls -A'
