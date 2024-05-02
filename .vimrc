@@ -11,6 +11,8 @@ set laststatus=2
 syntax on
 set autoindent
 set clipboard+=unnamed
+map j gj
+map k gk
 " plugins
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
