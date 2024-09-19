@@ -9,13 +9,15 @@ set hlsearch
 set ignorecase
 set laststatus=2
 syntax on
+filetype on
 set autoindent
 set clipboard+=unnamed
-map j gj
+set n gj
 map k gk
 " plugins
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
+Plug 'kamykn/spelunker.vim'
 Plug 'lervag/vimtex'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
