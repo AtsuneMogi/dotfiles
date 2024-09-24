@@ -9,10 +9,9 @@ set hlsearch
 set ignorecase
 set laststatus=2
 syntax on
-filetype on
 set autoindent
 set clipboard+=unnamed
-set n gj
+map j gj
 map k gk
 " plugins
 call plug#begin('~/.vim/plugged')
