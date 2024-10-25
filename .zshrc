@@ -8,8 +8,8 @@ alias ls="ls -GF"
 alias l='ls -C'
 alias la='ls -A'
 alias ll='ls -alF'
-alias python="python3"
 alias py="python3"
+alias python="python3"
 alias pip="pip3"
 alias v="vim"
 # zsh history
