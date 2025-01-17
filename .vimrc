@@ -1,9 +1,9 @@
 " set number relatively
 set number
 set relativenumber
-" set tab size 4
-set tabstop=4
-set shiftwidth=4
+" set tab size 2
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set hlsearch
 set ignorecase
