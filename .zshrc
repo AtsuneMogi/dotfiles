@@ -5,6 +5,7 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 # aliases
 alias gpp="g++"
 alias ls="ls -GF"
+alias sl="ls"
 alias l='ls -C'
 alias la='ls -A'
 alias ll='ls -alF'
