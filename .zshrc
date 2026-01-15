@@ -9,9 +9,6 @@ alias sl="ls"
 alias l='ls -C'
 alias la='ls -A'
 alias ll='ls -alF'
-alias py="python3"
-alias python="python3"
-alias pip="pip3"
 alias v="vim"
 # zsh history
 ZSH_AUTOSUGGEST_STRATEGY=(history)
