@@ -31,7 +31,7 @@ inoremap <C-p> <Up>
 inoremap <C-n> <Down>
 inoremap <C-d> <Del>
 inoremap <C-k> <C-o>D
-" Since Ctrl+y has the default behavior (repeating the last character)
+" Since Ctrl+y has the default behavior (repeating the last character),
 " change it to something like <C-o>p (paste) if needed.
 " ------
 " --- Emacs key bindings in insert mode ---
