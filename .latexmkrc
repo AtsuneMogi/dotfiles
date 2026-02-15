@@ -11,7 +11,7 @@ $dvipdf = 'dvipdfmx %O -o %D %S';
 $dvips = 'dvips %O -z -f %S | convbkmk -u > %D';
 $ps2pdf = 'ps2pdf %O %S %D';
 $pdf_mode = 1;
-$pdf_previewer = 'zathura';
+# $pdf_previewer = 'zathura';
 
 #$latex            = 'uplatex -halt-on-error';
 #$latex_silent     = 'uplatex -halt-on-error -interaction=batchmode';
