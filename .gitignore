@@ -1,8 +1,11 @@
+# ignore all
 /*
 /.**
 
+# white list
 !/install.sh
 !/README.md
+!/.editorconfig
 !/.gitignore
 !/.latexmkrc
 !/.tmux.conf
