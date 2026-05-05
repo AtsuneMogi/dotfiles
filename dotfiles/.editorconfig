@@ -1,0 +1,56 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C, C++
+[*.{c,h,cpp,hpp,cc,cxx}]
+indent_style = space
+indent_size = 4
+
+# Makefile
+[Makefile]
+indent_style = tab
+
+# Python
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Ruby
+[*.rb]
+indent_style = space
+indent_size = 2
+
+# Rust
+[*.rs]
+indent_style = space
+indent_size = 4
+
+# JavaScript, TypeScript (including jsx and tsx for React)
+[*.{js,jsx,ts,tsx}]
+indent_style = space
+indent_size = 2
+
+# HTML, CSS, JSON, YAML
+[*.{html,css,json,yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Markdown
+[*.md]
+indent_style = space
+indent_size = 4
+
+# Nix
+[*.nix]
+indent_style = space
+indent_size = 2
+
+# Shell Script
+[*.{sh,bash}]
+indent_style = space
+indent_size = 4
