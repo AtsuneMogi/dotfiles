@@ -21,6 +21,8 @@ nix-config/
 	├── .vimrc
 	├── .zshrc
 	└── .config/
+		├── cmux/
+		│	└── settings.json
 		└── nvim/
 			└── init.vim
 ```
