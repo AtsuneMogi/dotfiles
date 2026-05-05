@@ -29,11 +29,20 @@ nix-config/
 
 ## Install
 
-Run the following commands to install this configuration:
+First, navigate to (or create) the `~/.config` directory:
+
+```console
+# Create ~/.config if it doesn't exist and navigate to it
+mkdir -p ~/.config
+cd ~/.config
+```
+
+Then clone this repository and run the install script:
 
 ```console
 # clone this repository
 git clone https://github.com/AtsuneMogi/nix-config
+cd nix-config
 # run install script
 ./install.sh
 ```
