@@ -9,6 +9,14 @@
   home.packages = with pkgs; [
     # --- dev tools ---
     platformio
+    (texlive.combine {
+    inherit (texlive)
+      scheme-medium
+      collection-langjapanese
+      collection-fontsrecommended
+      latexmk
+      physics; # latex packages
+    })
 
     # --- CLI tools ---
     fastfetch
