@@ -26,6 +26,9 @@
     onActivation.cleanup = "zap";
     onActivation.autoUpdate = true;
     onActivation.upgrade = true;
+    taps = [
+      "VOICEVOX/voicevox"
+    ];
     casks = [
       "adobe-acrobat-reader"
       "antigravity"
@@ -38,13 +41,13 @@
       "google-chrome"
       "google-drive"
       "google-gemini"
-      "mactex-no-gui"
       "microsoft-office"
       "microsoft-teams"
       "obsidian"
       "openscad@snapshot"
       "slack"
       "visual-studio-code"
+      "voicevox"
       "zoom"
     ];
   };
