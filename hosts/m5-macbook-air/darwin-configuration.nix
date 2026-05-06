@@ -42,7 +42,7 @@
       "microsoft-office"
       "microsoft-teams"
       "obsidian"
-      "openscad"
+      "openscad@snapshot"
       "slack"
       "visual-studio-code"
       "zoom"
