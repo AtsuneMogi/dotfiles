@@ -37,12 +37,12 @@ mkdir -p ~/.config
 cd ~/.config
 ```
 
-Then clone this repository and run the install script:
+Then clone this repository and apply the configuration with a nix command:
 
 ```console
 # clone this repository
 git clone https://github.com/AtsuneMogi/nix-config
 cd nix-config
-# run install script
-./install.sh
+# apply nix-darwin configuration
+sudo nix run nix-darwin -- switch --flake .#atsune
 ```

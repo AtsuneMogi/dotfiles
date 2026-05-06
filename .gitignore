@@ -7,7 +7,6 @@
 !/hosts/
 !/modules/
 !/.gitignore
-!/install.sh
 !/flake.lock
 !/flake.nix
 !/README.md
