@@ -8,11 +8,14 @@
 nix-config/
 ├── flake.nix
 ├── flake.lock
+├── .gitignore
+├── README.md
 ├── hosts/
 │   └── m5-macbook-air/
 │       ├── darwin-configuration.nix
 │       └── home.nix
 ├── modules/
+│   ├── cmd-eikana.nix
 │   └── dotfiles.nix
 └── dotfiles/
 	├── .editorconfig
