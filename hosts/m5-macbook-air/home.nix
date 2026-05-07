@@ -1,4 +1,7 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+let
+  cmdEikanaPkg = import ../../modules/cmd-eikana.nix { inherit pkgs; };
+in {
   imports = [
     ../../modules/dotfiles.nix
   ];
@@ -25,6 +28,7 @@
     openssh
     ranger
     wireshark-cli
+    cmdEikanaPkg
   ];
 
   programs.home-manager.enable = true;
