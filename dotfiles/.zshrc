@@ -7,7 +7,8 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 alias gpp="g++"
 alias ls="ls -GF"
 alias sl="ls"
-alias l='ls -C'
+alias l='ls'
+alias s='ls'
 alias la='ls -A'
 alias ll='ls -alF'
 alias v="vim"
@@ -38,7 +39,7 @@ zinit light zdharma/fast-syntax-highlighting
 zinit ice depth=1
 zinit light jeffreytse/zsh-vi-mode
 
-# starship 
+# starship
 if (( $+commands[starship] )); then
   eval "$(starship init zsh)"
 fi
