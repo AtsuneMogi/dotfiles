@@ -17,6 +17,7 @@
     ruby
     rustc
     tmux
+    uv
     vim
     wget
   ];
