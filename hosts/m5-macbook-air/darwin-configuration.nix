@@ -43,6 +43,7 @@
       "gimp"
       "google-chrome"
       "google-drive"
+      "lm-studio"
       "microsoft-office"
       "microsoft-teams"
       "obsidian"
