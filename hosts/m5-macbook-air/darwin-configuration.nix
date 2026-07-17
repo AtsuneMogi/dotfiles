@@ -12,6 +12,7 @@
     luajit
     neovim
     nodejs_22
+    ollama
     python311
     ruby
     rustc
