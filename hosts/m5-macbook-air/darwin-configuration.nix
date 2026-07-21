@@ -10,10 +10,12 @@
     curl
     dlib
     git
+    libpng
     luajit
     neovim
     nodejs_22
     ollama
+    pkg-config
     python311
     ruby
     rustc
