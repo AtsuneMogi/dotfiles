@@ -8,6 +8,7 @@
   environment.systemPackages = with pkgs; [
     cargo
     curl
+    dlib
     git
     luajit
     neovim
