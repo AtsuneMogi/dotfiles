@@ -7,6 +7,7 @@
   # system packages obtained from nixpkgs
   environment.systemPackages = with pkgs; [
     cargo
+    cmake
     curl
     dlib
     git
