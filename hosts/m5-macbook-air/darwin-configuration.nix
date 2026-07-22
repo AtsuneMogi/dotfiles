@@ -11,8 +11,9 @@
     curl
     dlib
     git
-    jpeg
+    libjpeg
     libpng
+    libwebp
     luajit
     neovim
     nodejs_22
@@ -25,7 +26,6 @@
     tmux
     uv
     vim
-    webpt
     wget
   ];
 
