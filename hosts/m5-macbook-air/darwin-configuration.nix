@@ -7,19 +7,12 @@
   # system packages obtained from nixpkgs
   environment.systemPackages = with pkgs; [
     cargo
-    cmake
     curl
-    dlib
     git
-    libjpeg
-    libpng
-    libwebp
     luajit
     neovim
     nodejs_22
     ollama
-    openblas
-    pkg-config
     python311
     ruby
     rustc
