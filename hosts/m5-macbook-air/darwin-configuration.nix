@@ -11,11 +11,13 @@
     curl
     dlib
     git
+    jpeg
     libpng
     luajit
     neovim
     nodejs_22
     ollama
+    openblas
     pkg-config
     python311
     ruby
@@ -23,6 +25,7 @@
     tmux
     uv
     vim
+    webpt
     wget
   ];
 
