@@ -14,7 +14,6 @@
       recursive = true;
     };
     ".config/starship.toml".source = ../dotfiles/.config/starship.toml;
-    # (VSCode settings and extensions removed)
     # vim-plug for Vim
     ".vim/autoload/plug.vim" = {
       source = pkgs.fetchurl {
