@@ -38,6 +38,7 @@
       "adobe-acrobat-reader"
       "antigravity"
       "bambu-studio"
+      "brave-browser"
       "cmux"
       "copilot-cli"
       "discord"
