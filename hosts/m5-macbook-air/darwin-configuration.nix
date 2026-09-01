@@ -42,6 +42,7 @@
       "cmux"
       "copilot-cli"
       "discord"
+      "docker"
       "firefox"
       "gimp"
       "google-chrome"
