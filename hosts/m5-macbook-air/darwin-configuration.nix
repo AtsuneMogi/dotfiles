@@ -54,7 +54,7 @@
       "openscad@snapshot"
       "orcaslicer"
       "raspberry-pi-imager"
-      "slack"
+      #"slack"
       "visual-studio-code"
       "zoom"
     ];
